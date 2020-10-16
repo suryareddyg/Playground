@@ -1,0 +1,9 @@
+n=int(input())
+x=[]
+while(n>0):
+  x.append(n%2)
+  n//=2
+if(x[0::]==x[::-1]):
+  print("Yes")
+else:
+  print('No')
